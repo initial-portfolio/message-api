@@ -23,7 +23,7 @@ public class MessageService {
         try {
             messageModel.setCreatedAt(LocalDateTime.now());
             messageModel.setName(messageModel.getName());
-            messageModel.setTelephone(messageModel.getTelephone());
+            messageModel.setPhoneNumber(messageModel.getPhoneNumber());
             messageModel.setEmail(messageModel.getEmail());
             messageModel.setMessage(messageModel.getMessage());
             return messageRepository.save(messageModel);

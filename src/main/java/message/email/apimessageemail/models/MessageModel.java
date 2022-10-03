@@ -16,7 +16,7 @@ public class MessageModel implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private Long telephone;
+    private String phoneNumber;
     private String email;
     @Column(columnDefinition = "TEXT")
     private String message;
